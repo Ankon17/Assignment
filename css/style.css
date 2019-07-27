@@ -1,0 +1,162 @@
+*{
+
+
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+}
+
+body{
+
+
+}
+header{
+    background-color: orange;
+}
+
+ nav{} 
+
+ nav ul{
+    overflow: hidden;
+    text-align: center;
+}
+
+ nav ul li{
+    list-style: none;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ nav ul li a{
+    color: #e4d7d7;
+    text-decoration: none;
+    text transform:;
+    text transform:;
+    padding: 10px 20px;
+    display: block;
+}
+
+ nav ul li a img{
+    max-width: 100%;
+    width: 150px;
+}
+
+ section{
+    background-color: #3576af;
+}
+
+ .container{
+    width: 100%;
+    /* margin: auto; */
+    /* background: antiquewhite; */
+    overflow: hidden;
+}
+
+ .img{
+    width: 40%;
+    float: left;
+    padding:  100px 0;
+}
+
+ .img img {
+    max-width: 100%;
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+
+.signup{
+    width: 60%;
+    float: left;
+    background-color: #07477f;
+    padding: 60px 100px;
+}
+.form-box{
+    /* font-size: 2em; */
+    /* color: #fff; */
+    /* text-transform: capitalize; */
+    width: 60%;
+    margin: auto;
+}
+.form-box h1{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2em;
+    max-width: 400px;
+}
+.form-box p{
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+.form-box strong{
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+}
+form{}
+form input {
+    width: 100%;
+    border: 1px solid #0a3cc7;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: #fff;
+}
+
+form input:last-child {
+
+background-color: orange;
+
+text-transform: uppercase;
+
+font-weight: 700;
+
+letter-spacing: 1px;
+
+cursor: pointer;
+}
+
+form input:last-child :hover{
+
+     background-color: #0c12d6e3;
+}
+.form-box ul {
+    padding: 0;
+    margin-top: 20px;
+}
+.form-box ul li{
+    list-style: none;
+    /* float: left; */
+    color: #fff;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.form-box ul li a{
+    color: #f0f3f5;
+    background-color: #FF9800;
+    /* padding: 10px; */
+    display: block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+.form-box ul li a:hover {
+    background-color: #0c12d6e3;
+}
+
+
+: placeholder{
+
+
+    color: #fff;
+}
